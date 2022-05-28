@@ -45,7 +45,7 @@
  {% for content in content_list %}
  <hr/>
  <h3><a href="/mysite/{{ content.id }}/">{{ content.title }}</a></h3>
- <h5>{{ content.content| truncatewords:30}}</h5>
+ <h5>{{ content.content | truncatewords:30}}</h5>
  {% endfor %}
 {% else %}
  <p>content 가 없습니다.</p>
